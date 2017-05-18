@@ -10981,6 +10981,10 @@ var _react = __webpack_require__(7);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _Home = __webpack_require__(224);
+
+var _Home2 = _interopRequireDefault(_Home);
+
 var _Emoji = __webpack_require__(96);
 
 var _Emoji2 = _interopRequireDefault(_Emoji);
@@ -10994,19 +10998,20 @@ var App = function App() {
     _reactRouterDom.HashRouter,
     null,
     _react2.default.createElement(
-      'h1',
-      null,
-      'Odd One Out'
-    ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
       'div',
-      { className: 'content' },
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: Home }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/level1', component: _Emoji2.default }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/level2', component: Faces }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/level3', component: Dolphins }),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/level4', component: Land1 })
+      null,
+      _react2.default.createElement(
+        'h1',
+        null,
+        'Odd One Out'
+      ),
+      _react2.default.createElement('hr', null),
+      _react2.default.createElement(
+        'div',
+        { className: 'content' },
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/level1', component: _Emoji2.default })
+      )
     )
   );
 };
@@ -11044,6 +11049,11 @@ var Emoji = function Emoji() {
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(
+      'div',
+      null,
+      'Welcome to Emoji Land'
+    ),
     _react2.default.createElement(
       'div',
       null,
@@ -25429,6 +25439,45 @@ var valueEqual = function valueEqual(a, b) {
 };
 
 exports.default = valueEqual;
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(198);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Home = function Home() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h1',
+      null,
+      'Welcome to Odd One Out'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      'INSTRUCTIONS'
+    ),
+    _react2.default.createElement(_reactRouterDom.Link, { to: '/level1' })
+  );
+};
+
+exports.default = Home;
 
 /***/ })
 /******/ ]);
