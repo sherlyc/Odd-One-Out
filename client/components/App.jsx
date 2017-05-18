@@ -1,10 +1,15 @@
 import React from 'react'
+import {HashRouter as Router, Route} from 'react-router-dom'
+import Thomasin from './Thomasin'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <Router>
+    <span>
+    <Route path='/thomasin' component={Thomasin} />
+    </span>
+    </Router>
   )
 }
 
 export default App
-
