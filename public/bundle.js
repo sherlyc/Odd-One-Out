@@ -11025,9 +11025,39 @@ module.exports = __webpack_require__(131);
 
 /***/ }),
 /* 96 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag (6:4)\n\n\u001b[0m \u001b[90m 4 | \u001b[39m  \u001b[36mreturn\u001b[39m (\n \u001b[90m 5 | \u001b[39m    \u001b[33m<\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\u001b[33mFind\u001b[39m the x on the page\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 | \u001b[39m    \u001b[33m<\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\u001b[33mIMAGES\u001b[39m \u001b[33mIMAGES\u001b[39m \u001b[33mHERE\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mspan\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m   | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 | \u001b[39m  )\n \u001b[90m 8 | \u001b[39m}\n \u001b[90m 9 | \u001b[39m\u001b[0m\n");
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Emoji = function Emoji() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      null,
+      'Find the x on the page'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      'IMAGES IMAGES HERE'
+    )
+  );
+};
+
+exports.default = Emoji;
 
 /***/ }),
 /* 97 */
