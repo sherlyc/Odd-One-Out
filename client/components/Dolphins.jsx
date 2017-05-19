@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 class Dolphins extends React.Component {
   constructor(props) {
     super(props)
+    this.timer = null
   }
 
   shakeConstant(evt) {
@@ -11,8 +12,8 @@ class Dolphins extends React.Component {
   }
 
   randomShake() {
-    var rowNum = Math.floor(window.innerHeight/20);
-    var columnNum = Math.floor(window.innerWidth/20);
+    var rowNum = Math.floor(window.innerHeight/15);
+    var columnNum = Math.floor(window.innerWidth/15);
 
     var randomWhaleCol = Math.floor(Math.random() * columnNum)
     var randomWhaleRow = Math.floor(Math.random() * rowNum)
@@ -20,12 +21,16 @@ class Dolphins extends React.Component {
   }
 
   componentDidMount() {
-    setInterval(this.randomShake, 200)
+    this.timer = setInterval(this.randomShake, 200)
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer)
   }
 
   render() {
-    var rowNum = Math.floor(window.innerHeight/20);
-    var columnNum = Math.floor(window.innerWidth/20);
+    var rowNum = Math.floor(window.innerHeight/15);
+    var columnNum = Math.floor(window.innerWidth/15);
 
     var randomWhaleCol = Math.floor(Math.random() * columnNum)
     var randomWhaleRow = Math.floor(Math.random() * rowNum)
