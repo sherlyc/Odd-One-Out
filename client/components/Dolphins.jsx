@@ -18,6 +18,7 @@ class Dolphins extends React.Component {
     var randomWhaleCol = Math.floor(Math.random() * columnNum)
     var randomWhaleRow = Math.floor(Math.random() * rowNum)
     document.getElementsByClassName("whale").item(randomWhaleCol * randomWhaleRow).classList.add("shake-constant")
+    document.getElementById("shakeit").play()
   }
 
   componentDidMount() {

@@ -25,6 +25,7 @@ render(){
   var kanye = <Link to='/victory' ><img className="kanye" src='kanye.png' style={this.state.style}/></Link>
 
 document.querySelector("body").style.background='url(beans.jpg)'
+document.querySelector("body").style.backgroundSize='25% 33%'
 
   return (
     <div>{kanye}</div>
