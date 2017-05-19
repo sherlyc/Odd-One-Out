@@ -2,14 +2,7 @@ import React from 'react'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 
-
-
 const Land1 = () => {
-
-
-
-
-
 
   return(
     <div className="l">
