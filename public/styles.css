@@ -24,3 +24,25 @@ a {
   color: inherit; 
   text-decoration: inherit;
 }
+
+.emoji {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+body {
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.play {
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: orange;
+    font-size: 50px;
+    color: white;
+}
