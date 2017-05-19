@@ -21,7 +21,7 @@ const Land1 = () => {
 
       <h1>l  l  l  l  l  l  l  l  l  l  l  l  l  l  l  l  l     l  l  l  l   l  l  l     l</h1>
 
-      <h1>l  l  l  l  l  l    l  l  l      l  l  l  l  l  l  l  l  <Link to={'/'}>|</Link>  l  l      l  l  l  l</h1>
+      <h1>l  l  l  l  l  l    l  l  l      l  l  l  l  l  l  l  l  <Link to={'/victory'}>|</Link>  l  l      l  l  l  l</h1>
 
 
       <h1>l  l    l  l  l  l  l        l  l  l  l  l  l    l  l  l  l  l  l  l  l  l  l  l</h1>
