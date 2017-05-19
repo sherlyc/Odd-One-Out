@@ -35,7 +35,7 @@ class Dolphins extends React.Component {
     document.querySelector("body").style.cursor = 'pointer'
 
     var whaleArray = Array(rowNum).fill(0).map(x => Array(columnNum).fill(<img src='whale.png' className='whale thomasin shake shake-hard' onMouseOver={this.shakeConstant} />))
-    whaleArray[randomWhaleRow][randomWhaleCol] = <Link to="/level3"><img className='thomasin shake shake-hard' src='dolphin.png' onMouseOver={this.shakeConstant} /></Link>
+    whaleArray[randomWhaleRow][randomWhaleCol] = <Link to="/level4"><img className='thomasin shake shake-hard' src='dolphin.png' onMouseOver={this.shakeConstant} /></Link>
 
     return (
       <div>
