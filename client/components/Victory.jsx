@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Victory = () => {
+  document.querySelector("body").style.backgroundImage = "none"
+  document.querySelector("body").style.backgroundColor = "white"
   return (
     <div>
       <h1>Congratulations!</h1>

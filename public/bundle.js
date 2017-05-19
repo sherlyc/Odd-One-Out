@@ -11173,7 +11173,7 @@ var Dolphins = function (_React$Component) {
       var randomWhaleRow = Math.floor(Math.random() * rowNum);
 
       document.querySelector("body").style.backgroundColor = 'hotpink';
-      document.querySelector("body").style.backgroundColor = 'none';
+      document.querySelector("body").style.backgroundImage = 'none';
       document.querySelector("body").style.margin = '0';
       document.querySelector("body").style.cursor = 'pointer';
 
@@ -11431,7 +11431,7 @@ var Land1 = function Land1() {
         'l  l  l  l  l  l    l  l  l      l  l  l  l  l  l  l  l  ',
         _react2.default.createElement(
           _reactRouterDom.Link,
-          { to: '/victory' },
+          { to: '/level3' },
           '|'
         ),
         '  l  l      l  l  l  l'
@@ -11468,15 +11468,17 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Victory = function Victory() {
+  document.querySelector("body").style.backgroundImage = "none";
+  document.querySelector("body").style.backgroundColor = "white";
   return _react2.default.createElement(
-    'div',
+    "div",
     null,
     _react2.default.createElement(
-      'h1',
+      "h1",
       null,
-      'Congratulations!'
+      "Congratulations!"
     ),
-    _react2.default.createElement('img', { id: 'victory', src: '/sherly.jpg' })
+    _react2.default.createElement("img", { id: "victory", src: "/sherly.jpg" })
   );
 };
 
