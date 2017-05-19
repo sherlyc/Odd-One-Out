@@ -1,0 +1,28 @@
+
+*{
+  background-image: url("http://i.imgur.com/oIrFqeV.png");
+}
+
+.l{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  white-space: pre-wrap;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+
+  }
+
+  .thomasin {
+    width: 20px;
+    height: 20px;
+    display:block;
+    float:left;
+  }
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
