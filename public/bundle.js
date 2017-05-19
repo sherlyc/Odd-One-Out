@@ -11118,14 +11118,17 @@ var Emoji = function Emoji() {
       null,
       'Find the x on the page'
     ),
-    _react2.default.createElement(
-      'div',
-      null,
-      'IMAGES IMAGES HERE'
-    )
+    generateEmojis()
   );
 };
 
+function generateEmojis() {
+  return _react2.default.createElement(
+    'div',
+    null,
+    'BOO'
+  );
+}
 exports.default = Emoji;
 
 /***/ }),
