@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div>
       <h1>Welcome to Odd One Out</h1>
-      <div>INSTRUCTIONS</div>
-      <Link to='/level1'>Start Level 1</Link>
+      <div>Find the odd one out!</div>
+      <Link to='/level1' style={{ textDecoration: 'none' }}><button className="play">PLAY</button></Link>
     </div>
   )
 }

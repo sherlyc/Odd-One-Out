@@ -8,8 +8,6 @@ const App = () => {
   return (
     <Router>
         <div>
-            <h1>Odd One Out</h1>
-            <hr></hr>
             <div className='content'>
               <Route exact={true} path='/' component={Home}/>
               <Route path='/level1' component={Emoji}/>
