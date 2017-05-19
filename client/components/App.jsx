@@ -8,14 +8,13 @@ import Dolphins from './Dolphins'
 const App = () => {
   return (
     <Router>
-
         <div>
-          
+
               <Route exact={true} path='/' component={Home}/>
               <Route path='/level1' component={Emoji}/>
               <Route path='/level3' component={Dolphins} />
               <Route path='/level4' component={Land1}/>
-           
+
         </div>
     </Router>
   )
