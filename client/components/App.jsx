@@ -10,6 +10,7 @@ const App = () => {
     <Router>
         <div>
 
+
               <Route exact={true} path='/' component={Home}/>
               <Route path='/level1' component={Emoji}/>
               <Route path='/level3' component={Dolphins} />
