@@ -4,6 +4,10 @@ import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 const Land1 = () => {
 
+
+document.querySelector("body").style.backgroundImage = url("http://i.imgur.com/oIrFqeV.png")
+
+
   return(
     <div className="l">
       <div className="blocks">
