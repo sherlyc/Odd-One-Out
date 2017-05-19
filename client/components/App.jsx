@@ -14,6 +14,7 @@ const App = () => {
               <Route path='/level1' component={Emoji}/>
               <Route path='/level3' component={Dolphins} />
               <Route path='/level4' component={Land1}/>
+              <Route path='/victory' component={Victory}/>
 
         </div>
     </Router>
