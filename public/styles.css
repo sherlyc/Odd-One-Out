@@ -1,7 +1,4 @@
 
-*{
-  background-image: url("http://i.imgur.com/oIrFqeV.png");
-}
 
 .l{
   font-family: 'Roboto', sans-serif;
@@ -16,13 +13,35 @@
   }
 
   .thomasin {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display:block;
     float:left;
   }
 
 a {
-  color: inherit; 
+  color: inherit;
   text-decoration: inherit;
+}
+
+.emoji {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+body {
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.play {
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: orange;
+    font-size: 50px;
+    color: white;
 }

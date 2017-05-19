@@ -37,7 +37,9 @@
   },
   "dependencies": {
     "body-parser": "^1.15.2",
+    "csshake": "^1.5.1",
     "express": "^4.14.0",
+    "react-router-dom": "^4.1.1",
     "tone": "^0.10.0"
   }
 }

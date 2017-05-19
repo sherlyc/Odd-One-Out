@@ -2,13 +2,10 @@ import React from 'react'
 import {HashRouter as Router, Route, Link} from 'react-router-dom'
 
 
-
-
 const Land1 = () => {
 
 
-
-
+document.querySelector("body").style.backgroundImage = "url('http://i.imgur.com/oIrFqeV.png')"
 
 
   return(
@@ -21,7 +18,7 @@ const Land1 = () => {
 
       <h1>l  l  l  l  l  l  l  l  l  l  l  l  l  l  l  l  l     l  l  l  l   l  l  l     l</h1>
 
-      <h1>l  l  l  l  l  l    l  l  l      l  l  l  l  l  l  l  l  <Link to={'/'}>|</Link>  l  l      l  l  l  l</h1>
+      <h1>l  l  l  l  l  l    l  l  l      l  l  l  l  l  l  l  l  <Link to={'/level3'}>|</Link>  l  l      l  l  l  l</h1>
 
 
       <h1>l  l    l  l  l  l  l        l  l  l  l  l  l    l  l  l  l  l  l  l  l  l  l  l</h1>
