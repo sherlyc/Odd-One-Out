@@ -36,6 +36,7 @@ class Dolphins extends React.Component {
     var randomWhaleRow = Math.floor(Math.random() * rowNum)
 
     document.querySelector("body").style.backgroundColor = 'hotpink'
+    document.querySelector("body").style.backgroundColor = 'none'
     document.querySelector("body").style.margin = '0'
     document.querySelector("body").style.cursor = 'pointer'
 
