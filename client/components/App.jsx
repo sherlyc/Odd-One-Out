@@ -14,7 +14,7 @@ const App = () => {
               <Route exact={true} path='/' component={Home}/>
               <Route path='/level1' component={Emoji}/>
               <Route path='/level3' component={Dolphins} />
-              <Route path='/' component={Land1}/>
+              <Route path='/level4' component={Land1}/>
            
         </div>
     </Router>
