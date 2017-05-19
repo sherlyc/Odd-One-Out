@@ -5,9 +5,12 @@ const Emoji = () => {
     <div>
       <div>Welcome to Emoji Land</div>
       <div>Find the x on the page</div>
-      <div>IMAGES IMAGES HERE</div>
+      {generateEmojis()}
     </div>
   )
 }
 
+function generateEmojis () {
+    return <div><img src=''></img></div>
+}
 export default Emoji
