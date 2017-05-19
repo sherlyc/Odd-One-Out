@@ -11126,7 +11126,7 @@ function generateEmojis() {
   return _react2.default.createElement(
     'div',
     null,
-    'BOO'
+    _react2.default.createElement('img', { src: '' })
   );
 }
 exports.default = Emoji;

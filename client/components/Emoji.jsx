@@ -11,6 +11,6 @@ const Emoji = () => {
 }
 
 function generateEmojis () {
-    return <div>BOO</div>
+    return <div><img src=''></img></div>
 }
 export default Emoji
